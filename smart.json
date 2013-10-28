@@ -3,6 +3,6 @@
   "description": "Access browser headers & stuff like the users ip address",
   "homepage": "https://github.com/tarangp/meteor-ip",
   "author": "Tarang Patel  (http://tarang.me)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "git": "https://github.com/tarangp/meteor-ip.git"
 }
