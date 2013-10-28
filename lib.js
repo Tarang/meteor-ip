@@ -9,6 +9,7 @@ GetClient = function(userId) {
 			if(Meteor.server.sessions[sessionid].userId === userId) {
 				this.ip_address = Meteor.server.sessions[sessionid].socket.remoteAddress;
 				this.user_agent = Meteor.server.sessions[sessionid].socket.headers['user-agent'];
+				this.headers = Meteor.server.sessions[sessionid].socket.headers;
 				break;
 			}
 		}
